@@ -30,5 +30,18 @@ class DefaultController extends Controller
     public function postsAction()
     {
         return $this->render('AppBundle:default:posts.html.twig');
+        
+        
+       // **
+        * @Template
+        */
+        
+        public function ContactAction{
+            return array();
+        }
+            
+        }
+        
     }
-}
+    
+    
